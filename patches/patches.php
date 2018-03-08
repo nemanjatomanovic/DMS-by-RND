@@ -322,6 +322,7 @@ function posaljiPodatke () {
 }
 
 //Radenko was here. Nemanja also.
+//Kurac na biciklu
 
 </script>
   </body>
