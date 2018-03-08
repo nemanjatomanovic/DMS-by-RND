@@ -228,6 +228,15 @@ success:function(data){
                   btnClass: 'btn-primary',
                   action:function() {
                     }
+              },
+              copy:{
+                text:'Kopiraj',
+                btnClass:'btn-primary',
+                action:function() {
+                  var copyText = resData;
+                  copyText.select();
+                  document.execCommand("Copy");
+                }
               }
               },
               content: resData,
@@ -321,8 +330,6 @@ function posaljiPodatke () {
   });
 }
 
-//Radenko was here. Nemanja also.
-//Kurac na biciklu
 
 </script>
   </body>
